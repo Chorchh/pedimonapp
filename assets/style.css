@@ -344,10 +344,10 @@ footer .title {
         padding: 0 2rem;
     }
 
-    .about-content {
+    /* .about-content {
         justify-content: flex-start;
         align-items: flex-start;
-    }
+    } */
 
     .about-content p {
         max-width: 800px;
@@ -355,6 +355,11 @@ footer .title {
 
     .about-img {
         max-width: 35%;
+    }
+
+    /* Section description */
+    .description-section {
+        padding-bottom: 0;
     }
 
     .description-section h2 {
@@ -369,23 +374,30 @@ footer .title {
     .card-container {
         flex-direction: row;
         justify-content: center;
-        align-items: center;
+        align-items: baseline;
         gap: 60px;
     }
 
+    /* Scction products */
     .products-container {
         flex-direction: row;
-        gap: 30px;
-        max-width: 100%;
+        flex-wrap: wrap;
+        max-width: 1200px;
+        margin: 8rem auto 0rem auto;
+        gap: 50px;
+    }
+    
+    .product {
+        margin: 0;
     }
 
+    /* Section Cart */
     .cart-container {
         width: 900px;
     }
 
-    footer {
+    .info-container {
         display: flex;
-        flex-direction: row;
-        gap: 250px;
+        gap: 50px;
     }
 }
