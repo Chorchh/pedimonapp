@@ -316,7 +316,7 @@ footer .title {
     .container-items {
         display: flex;
         justify-content: flex-end;
-        gap: 50px;
+        gap: 80px;
     }
 
     .item {
@@ -335,6 +335,10 @@ footer .title {
         display: none;
     }
 
+    .about-img {
+        margin: 0;
+    }
+
     /* Section about */
     .about-section {
         display: flex;
@@ -343,11 +347,6 @@ footer .title {
         align-items: center;
         padding: 0 2rem;
     }
-
-    /* .about-content {
-        justify-content: flex-start;
-        align-items: flex-start;
-    } */
 
     .about-content p {
         max-width: 800px;
